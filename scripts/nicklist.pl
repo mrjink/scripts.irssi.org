@@ -5,7 +5,7 @@ use strict;
 use IO::Handle; # for (auto)flush
 use Fcntl; # for sysopen
 use vars qw($VERSION %IRSSI);
-$VERSION = '0.4.7';
+$VERSION = '0.4.8';
 %IRSSI = (
 	authors     => 'Wouter Coekaerts',
 	contact     => 'coekie@irssi.org',
@@ -13,7 +13,7 @@ $VERSION = '0.4.7';
 	description => 'draws a nicklist to another terminal, or at the right of your irssi in the same terminal',
 	license     => 'GPLv2',
 	url         => 'http://wouter.coekaerts.be/irssi',
-	changed     => '20/03/2017'
+	changed     => '28/06/2017'
 );
 
 sub cmd_help {
